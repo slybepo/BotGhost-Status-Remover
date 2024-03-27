@@ -16,5 +16,5 @@ let client = new Discord.Client()
 client.on('ready', () => {
  client.user.setActivity(`1.0.1 your prefix here`, { type: 'PLAYING'})
 })
-
+token = Bot(token=os.environ.get('TOKEN'))
 client.login(process.env.token);
