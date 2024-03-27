@@ -1,7 +1,0 @@
-{
-  "name": "package.txt",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  }
-}
